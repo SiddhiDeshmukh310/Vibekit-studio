@@ -1,0 +1,511 @@
+/* Add at the bottom of Editor.css */
+/* Add at the bottom of Editor.css */
+
+.hero-cta {
+  padding: 18px 52px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 9999px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.08);
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-form {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.contact-form button {
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero {
+  margin-bottom: 100px;
+}
+
+.features h2, .gallery h2, .contact h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.08);
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact-form {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.contact-form button {
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.gallery h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.08);
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+.editor {
+  display: flex;
+  height: 100vh;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+/* LEFT SIDEBAR */
+.sidebar.left {
+  width: 260px;
+  background: #111111;
+  border-right: 1px solid #27272a;
+  padding: 24px 20px;
+  overflow-y: auto;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #a855f7;
+  margin-bottom: 40px;
+}
+
+.menu-section h4 {
+  color: #888;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 28px 0 12px 8px;
+}
+
+.menu-item, .vibe-item {
+  padding: 14px 16px;
+  margin: 6px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #1f1f1f;
+}
+
+.vibe-item {
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vibe-item.active {
+  background: #27272a;
+  border: 1px solid #a855f7;
+}
+
+.color-dot {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+/* MAIN AREA */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 72px;
+  background: rgba(10,10,10,0.98);
+  border-bottom: 1px solid #27272a;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  gap: 24px;
+}
+
+.page-title {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+}
+
+.viewport-controls {
+  display: flex;
+  background: #1a1a1a;
+  border-radius: 9999px;
+  padding: 4px;
+}
+
+.viewport-controls button {
+  padding: 8px 20px;
+  border: none;
+  background: transparent;
+  color: #aaa;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.viewport-controls button.active {
+  background: #a855f7;
+  color: white;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.save-indicator {
+  font-size: 14px;
+  color: #666;
+}
+
+.save-indicator.saved {
+  color: #4ade80;
+}
+
+.publish-btn {
+  background: linear-gradient(90deg, #a855f7, #7c3aed);
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* PREVIEW */
+.preview-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #0a0a0a;
+  overflow: auto;
+}
+
+.preview-frame {
+  border-radius: 28px;
+  box-shadow: 0 30px 90px rgba(0,0,0,0.8);
+  overflow: hidden;
+  border: 14px solid #1a1a1a;
+  transition: width 0.4s ease;
+  min-height: 640px;
+}
+
+.preview-content {
+  padding: 80px 60px;
+  min-height: 620px;
+  text-align: center;
+}
+
+/* HERO */
+.hero {
+  margin-bottom: 100px;
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  opacity: 0.9;
+  margin-bottom: 48px;
+}
+
+.hero-cta {
+  padding: 18px 52px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 9999px;
+  color: white;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.08);
+  padding: 32px 24px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* GALLERY */
+.gallery h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  height: 240px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 16px;
+}
+
+/* CONTACT */
+.contact h2 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 18px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: inherit;
+  font-size: 1.1rem;
+}
+
+.contact-form button {
+  padding: 18px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* RIGHT SIDEBAR */
+.sidebar.right {
+  width: 290px;
+  background: #111111;
+  border-left: 1px solid #27272a;
+  padding: 32px 24px;
+  overflow-y: auto;
+}
+
+.sidebar.right h3 {
+  color: #a855f7;
+  margin-bottom: 28px;
+}
+
+.form-group {
+  margin-bottom: 26px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 14px 18px;
+  border-radius: 12px;
+  color: white;
+}
+
+.save-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #a855f7, #7c3aed);
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* Add at the bottom of Editor.css */
+
+.section-block {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.reorder-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.reorder-buttons button {
+  padding: 6px 12px;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.reorder-buttons button:hover {
+  background: #a855f7;
+}
